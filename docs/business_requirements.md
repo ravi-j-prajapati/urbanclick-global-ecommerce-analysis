@@ -52,7 +52,7 @@ This project establishes an enterprise data platform designed to centralize, sta
 
 ### Tier 1: Reference/Lookup Layer (lkp_*)
 
-1. `` lkp_geography ``
+1. ` lkp_geography `
     - **Purpose:** Unified spatial reference for customers, warehouses, and delivery points.
     - **Primary Key:** `geo_id` (INT, AUTO_INCREMENT)
     - **Attributes:** `city` (VARCHAR(100)), `state_province` (VARCHAR(100)), `country` (VARCHAR(100)), `region` (VARCHAR(50)), `postal_code` (VARCHAR(20))
@@ -73,7 +73,7 @@ This project establishes an enterprise data platform designed to centralize, sta
     - **Purpose:** Centralized customer demographic profiles.
     - **Primary Key:** `customer_id` (INT, AUTO_INCREMENT)
     - **Foreign Key:** `geo_id` -> lkp_geography(`geo_id`)
-    - **Attributes:** `first_name` (VARCHAR(100)), `last_name` (VARCHAR(100)), `email` (VARCHAR(100)), `signup_date` (DATE), `customer_phone` (VARCHAR(100))`customer_segment` (VARCHAR(50))
+    - **Attributes:** `first_name` (VARCHAR(100)), `last_name` (VARCHAR(100)), `email` (VARCHAR(100)), `signup_date` (DATE), `customer_phone` (VARCHAR(100)), `customer_segment` (VARCHAR(50))
 
 5. `mst_products`
     - **Purpose:** Product catalog with cost baselines and retail pricing.
@@ -151,7 +151,6 @@ This project establishes an enterprise data platform designed to centralize, sta
 
 1. **PII Protection:** Customer names and emails must be masked or anonymized prior to pushing public analytical datasets or dashboard files.
 2. **Data Pipeline Consistency:** The Python synthetic engine must guarantee 100% referential consistency across all generated primary and foreign key pairs.
-3. 
 
 
 ---
