@@ -1,0 +1,35 @@
+category_id,category_name,sub_category_name
+1,Electronics,Smartphones & Accessories
+2,Electronics,Laptops & Computers
+3,Electronics,Audio & Headphones
+4,Electronics,Wearable Technology
+5,Electronics,Cameras & Photography
+6,Apparel,Men's Clothing
+7,Apparel,Women's Clothing
+8,Apparel,Footwear & Sneakers
+9,Apparel,Watches & Jewelry
+10,Home & Kitchen,Cookware & Dining
+11,Home & Kitchen,Furniture & Decor
+12,Home & Kitchen,Large Appliances
+13,Home & Kitchen,Bedding & Bath
+14,Beauty & Personal Care,Skincare
+15,Beauty & Personal Care,Makeup & Cosmetics
+16,Beauty & Personal Care,Haircare
+17,Beauty & Personal Care,Fragrances
+18,Sports & Outdoors,Exercise & Fitness
+19,Sports & Outdoors,Camping & Hiking
+20,Sports & Outdoors,Cycling & Action Sports
+21,Toys & Games,Action Figures & Toys
+22,Toys & Games,Board Games & Puzzles
+23,Books & Media,Printed Books
+24,Books & Media,Digital Audiobooks
+25,Automotive,Car Electronics
+26,Automotive,Auto Parts & Accessories
+27,Health & Household,Vitamins & Supplements
+28,Health & Household,Medical Supplies
+29,Grocery & Gourmet,Beverages & Coffee
+30,Grocery & Gourmet,Snacks & Pantry
+31,Office Products,Office Supplies
+32,Office Products,Office Furniture
+33,Pet Supplies,Dog Supplies
+34,Pet Supplies,Cat Supplies

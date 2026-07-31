@@ -1,0 +1,21 @@
+warehouse_id,warehouse_code,warehouse_name,geo_id,capacity_sqft
+1,WH-US-EAST1,US East NJ Hub,1,350000
+2,WH-US-WEST1,US West CA Hub,2,400000
+3,WH-US-CENT1,US Central TX Hub,4,300000
+4,WH-CA-TOR1,Canada Ontario Hub,5,200000
+5,WH-MX-CDMX,Mexico Regional Node,7,180000
+6,WH-UK-LON1,UK London Hub,9,250000
+7,WH-DE-BER1,Germany Berlin Hub,11,280000
+8,WH-FR-PAR1,France Paris Node,13,200000
+9,WH-ES-MAD1,Spain Madrid Node,16,170000
+10,WH-JP-TYO1,Japan Tokyo Central,20,300000
+11,WH-CN-SHG1,China Shanghai Hub,22,500000
+12,WH-CN-SZN1,China Shenzhen Mega-Hub,23,600000
+13,WH-SG-SIN1,Singapore APAC Node,24,220000
+14,WH-KR-SEL1,South Korea Hub,25,190000
+15,WH-AU-SYD1,Australia Sydney Node,26,210000
+16,WH-IN-BOM1,India Mumbai Hub,28,350000
+17,WH-BR-SAO1,Brazil Sao Paulo Hub,31,250000
+18,WH-AE-DXB1,UAE Dubai Hub,34,280000
+19,WH-ZA-JNB1,South Africa JNB Node,37,150000
+20,WH-EG-CAI1,Egypt Cairo Node,38,140000

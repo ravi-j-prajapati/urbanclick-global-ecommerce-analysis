@@ -1,0 +1,39 @@
+geo_id,city,state_province,country,region,postal_code
+1,New York,NY,USA,North America,10001
+2,Los Angeles,CA,USA,North America,90001
+3,Chicago,IL,USA,North America,60601
+4,Houston,TX,USA,North America,77001
+5,Toronto,ON,Canada,North America,M5V 2T6
+6,Vancouver,BC,Canada,North America,V6B 1A1
+7,Mexico City,CDMX,Mexico,Latin America,01000
+8,Monterrey,NL,Mexico,Latin America,64000
+9,London,England,UK,Europe,EC1A 1BB
+10,Manchester,England,UK,Europe,M1 1AG
+11,Berlin,Berlin,Germany,Europe,10115
+12,Munich,Bavaria,Germany,Europe,80331
+13,Paris,IDF,France,Europe,75001
+14,Lyon,ARA,France,Europe,69001
+15,Amsterdam,NH,Netherlands,Europe,1012 JS
+16,Madrid,Madrid,Spain,Europe,28001
+17,Rome,Lazio,Italy,Europe,00100
+18,Warsaw,Mazovia,Poland,Europe,00-001
+19,Stockholm,Stockholm,Sweden,Europe,111 22
+20,Tokyo,Tokyo,Japan,Asia Pacific,100-0001
+21,Osaka,Osaka,Japan,Asia Pacific,530-0001
+22,Shanghai,Shanghai,China,Asia Pacific,200000
+23,Shenzhen,Guangdong,China,Asia Pacific,518000
+24,Singapore,Singapore,Singapore,Asia Pacific,018989
+25,Seoul,Gyeonggi,South Korea,Asia Pacific,03000
+26,Sydney,NSW,Australia,Asia Pacific,2000
+27,Melbourne,VIC,Australia,Asia Pacific,3000
+28,Mumbai,Maharashtra,India,Asia Pacific,400001
+29,Bengaluru,Karnataka,India,Asia Pacific,560001
+30,Jakarta,Jakarta,Indonesia,Asia Pacific,10110
+31,São Paulo,SP,Brazil,Latin America,01000-000
+32,Buenos Aires,CABA,Argentina,Latin America,C1001
+33,Santiago,RM,Chile,Latin America,8320000
+34,Dubai,Dubai,UAE,Middle East,00000
+35,Riyadh,Riyadh,Saudi Arabia,Middle East,11564
+36,Tel Aviv,TA,Israel,Middle East,61000
+37,Johannesburg,Gauteng,South Africa,Africa,2000
+38,Cairo,Cairo,Egypt,Africa,11511
