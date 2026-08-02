@@ -16,7 +16,7 @@ Faker.seed(SEED)
 OUTPUT_DIR = os.path.join(os.path.dirname(__file__), "raw")
 os.makedirs(OUTPUT_DIR, exist_ok=True)
 
-print("Starting Enterprise Global Scale Data Generation (Amazon/AliExpress Scale)...")
+print("Starting Enterprise Global Scale Data Generation...")
 
 # Helper function to save large DataFrames into size-compliant split CSV files
 def save_dataframe_in_chunks(df, base_filename, max_rows_per_file=250000):
@@ -408,4 +408,4 @@ for dt in dates:
 df_inv = pd.DataFrame(inventory)
 save_dataframe_in_chunks(df_inv, "txn_inventory_snapshots", max_rows_per_file=250000)
 
-print("\nSUCCESS! Enterprise Amazon/AliExpress-Scale Data Pipeline Execution Complete.")
+print("\nSUCCESS! Enterprise Data Pipeline Execution Complete.")

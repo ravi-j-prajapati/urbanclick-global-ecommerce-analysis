@@ -54,36 +54,36 @@ This project establishes an enterprise data platform designed to centralize, sta
 
 1. ` lkp_geography `
     - **Purpose:** Unified spatial reference for customers, warehouses, and delivery points.
-    - **Primary Key:** `geo_id` (INT, AUTO_INCREMENT)
-    - **Attributes:** `city` (VARCHAR(100)), `state_province` (VARCHAR(100)), `country` (VARCHAR(100)), `region` (VARCHAR(50)), `postal_code` (VARCHAR(20))
+    - **Primary Key:** `geo_id` (INT)
+    - **Attributes:** `city` (VARCHAR(100)), `state_province` (VARCHAR(100)), `country` (VARCHAR(100)), `region` (VARCHAR(50)), `postal_code` (VARCHAR(50))
 
 2. `lkp_categories`
     -   **Purpose:** Multi-level product classification structure.
-    -   **Primary Key:** `category_id` (INT, AUTO_INCREMENT)
+    -   **Primary Key:** `category_id` (INT)
     -  **Attributes:** `category_name` (VARCHAR(100)), `sub_category_name` (VARCHAR(100))
 
 3. `lkp_payment_methods`
     -   **Purpose:** Supported payment types and processing vendors.
-    -   **Primary Key:** `payment_method_id` (INT, AUTO_INCREMENT)
+    -   **Primary Key:** `payment_method_id` (INT)
     -  **Attributes:** `payment_type` (VARCHAR(50)), `provider` (VARCHAR(50))
 
 ### Tier 2: Master Data Layer (mst_*)
 
 4. `mst_customers`
     - **Purpose:** Centralized customer demographic profiles.
-    - **Primary Key:** `customer_id` (INT, AUTO_INCREMENT)
+    - **Primary Key:** `customer_id` (INT)
     - **Foreign Key:** `geo_id` -> lkp_geography(`geo_id`)
     - **Attributes:** `first_name` (VARCHAR(100)), `last_name` (VARCHAR(100)), `email` (VARCHAR(100)), `signup_date` (DATE), `customer_phone` (VARCHAR(100)), `customer_segment` (VARCHAR(50))
 
 5. `mst_products`
     - **Purpose:** Product catalog with cost baselines and retail pricing.
-    - **Primary Key:** `product_id` (INT, AUTO_INCREMENT)
+    - **Primary Key:** `product_id` (INT)
     - **Foreign key:** `category_id` -> lkp_categories(`category_id`)
     - **Attributes:** `product_name` (VARCHAR(150)), `unit_cost` (DECIMAL(10,2)), `list_price` (DECIMAL(10,2)), `weight_kg` (DECIMAL(6,2)), `length_cm` (DECIMAL(10,2)), `width_cm` (DECIMAL(10,2)), `height_cm` (DECIMAL(10,2)), `manufacturer` (VARCHAR(100)), `supplier` (VARCHAR(100))
 
 6. `mst_warehouses`
     - **Purpose:** Catalog of active global distribution nodes.
-    - **Primary Key:** `warehouse_id` (INT, AUTO_INCREMENT)
+    - **Primary Key:** `warehouse_id` (INT)
     - **Foreign key:** `geo_id` -> lkp_geography(`geo_id`)
     - **Attributes:** `warehouse_code` (VARCHAR(20)), `warehouse_name` (VARCHAR(100)), `capacity_sqft` (INT)
 
@@ -91,7 +91,7 @@ This project establishes an enterprise data platform designed to centralize, sta
 
 7. `txn_orders`
     - **Purpose:** Header-level transactional records for sales orders.
-    - **Primary Key:** `order_id` (INT, AUTO_INCREMENT)
+    - **Primary Key:** `order_id` (INT)
     - **Foreign key:**
         - `customer_id` -> mst_customers(`customer_id`)
         - `payment_method_id` -> lkp_payment_methods(`payment_method_id`)
@@ -100,7 +100,7 @@ This project establishes an enterprise data platform designed to centralize, sta
 
 8. `txn_order_items`
     - **Purpose:** Line-item transaction breakdown linking orders to items and fulfilling warehouses.
-    - **Primary Key:** `line_item_id` (INT, AUTO_INCREMENT)
+    - **Primary Key:** `line_item_id` (INT)
     - **Foreign key:**
         - `order_id` -> txn_orders(`order_id`)
         - `product_id` -> mst_products(`product_id`)
@@ -109,13 +109,13 @@ This project establishes an enterprise data platform designed to centralize, sta
 
 9. `txn_returns`
     - **Purpose:** Reverse logistics tracking and refund disposition.
-    - **Primary Key:** `return_id` (INT, AUTO_INCREMENT)
+    - **Primary Key:** `return_id` (INT)
     - **Foreign key:** `line_item_id` -> txn_order_items(`line_item_id`)
     - **Attributes:** `return_date` (DATETIME), `return_reason` (VARCHAR(100)), `refund_amount` (DECIMAL(10,2))
 
 10. `txn_product_reviews`
     - **Purpose:** Quantitative customer feedback and reviews.
-    - **Primary Key:** `review_id` (INT, AUTO_INCREMENT)
+    - **Primary Key:** `review_id` (INT)
     - **Foreign key:**
         - `product_id` -> mst_products(`product_id`)
         - `customer_id` -> mst_customers(`customer_id`)
@@ -123,7 +123,7 @@ This project establishes an enterprise data platform designed to centralize, sta
 
 11. `txn_inventory_snapshots`
     - **Purpose:** Periodic warehouse stock level tracking.
-    - **Primary Key:** `inventory_id` (INT, AUTO_INCREMENT)
+    - **Primary Key:** `inventory_id` (INT)
     - **Foreign key:**
         - `warehouse_id` -> mst_warehouses(`warehouse_id`)
         - `product_id` -> mst_products(`product_id`)
