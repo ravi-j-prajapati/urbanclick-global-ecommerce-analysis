@@ -18,7 +18,7 @@ The Project Covers:
 - Phase 2: Synthetic Data Pipeline (Python) ✅
 - Phase 3: Data Warehouse & MySQL Implementation ✅
 - Phase 4: Power BI Enterprise Analytics 🔄
-- Phase 5: Tableau Exploratory Analytics & Storytelling ⏳
+- Phase 5: Tableau Exploratory Analytics & Storytelling 🔄
 - Phase 6: Enterprise Packaging & Git Commit Optimization ⏳
 
 ## Repository Structure
@@ -44,3 +44,10 @@ venv/
 - Business Requirement Document (BRD)
 - ER_Diagram
 - Metrics Catalog
+
+
+## Issues during project
+1. **Connectivity between Power BI -> MySQL**\
+    Compativility issue between native MySQL connector and the installed Connector/NET provider.
+
+    **Solution:** Power BI was connected to MySQL using the MySQL ODBC 8.4 Unicode Driver. The database connection was validated through DSN testing before use.

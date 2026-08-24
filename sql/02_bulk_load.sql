@@ -151,7 +151,7 @@ INTO TABLE txn_returns FIELDS TERMINATED BY ',' ENCLOSED BY '"' LINES TERMINATED
 (return_id, line_item_id, return_date, return_reason, refund_amount);
 
 
--- Reviews (2 Chunks)
+-- Reviews 
 LOAD DATA LOCAL INFILE 'D:/Study/Dashboard Portfolio/Project-1_urbanclick-global-ecommerce-analysis/urbanclick-global-ecommerce-analysis/data_pipeline/raw/txn_product_reviews.csv'
 INTO TABLE txn_product_reviews FIELDS TERMINATED BY ',' ENCLOSED BY '"' LINES TERMINATED BY '\n' IGNORE 1 LINES
 (review_id, product_id, customer_id, rating, review_date, @text)
