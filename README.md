@@ -52,9 +52,12 @@ venv/
 https://public.tableau.com/views/urbanclick_analytics_platform/NetProfit?:language=en-US&:sid=&:redirect=auth&:display_count=n&:origin=viz_share_link
 
 ##### How is the business performing? What are the major trends, customer segments, categories and regions by Order Volume, Revenue & Profit?
-![Tableau Executive Dashboard](tableau\tableau_Executive_Dashboard.JPG)
+![Tableau Executive Dashboard](tableau\Tableau_Executive_Dashboard.JPG)
 ##### Which products and categories are profitable or unprofitable? What is the relationship between revenue and profit?
-![Tableau Executive Dashboard](Tableau\Tableau_Product_Analysis.JPG)
+![Tableau Executive Dashboard](tableau\Tableau_Product_Analysis.JPG)
+
+
+
 ### Power BI
 https://app.powerbi.com/view?r=eyJrIjoiYjM4YjIwMTYtMjEzNy00NGFmLThjMmUtMTc5MDFiM2ZkMmI3IiwidCI6Ijk4NjNhOWJhLTczYTktNDZkZi04YzMzLTNkZDM3NTczNzk0ZSJ9
 
