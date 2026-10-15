@@ -19,9 +19,11 @@ The Project Covers:
 - Phase 3: Data Warehouse & MySQL Implementation ✅
 - Phase 4: Exploratory Analytics in Tableau & Power BI: Executive Overview ✅
 - Phase 5: Exploratory Analytics in Tableau & Power BI: Product Analysis ✅
-- Phase 6: Exploratory Analytics in Tableau & Power BI: Customer Analysis 🔄
-- Phase 7: Exploratory Analytics in Tableau & Power BI: Retruns and Logistics ⏳
-- Phase 8: Enterprise Packaging & Git Commit Optimization ⏳
+- Phase 6: Exploratory Analytics in Tableau & Power BI: Warehouse Location & Capacity Utilization ✅
+- Phase 7: Exploratory Analytics in Tableau & Power BI: Inventory & Supply Chain Health 🔄
+- Phase 8: Exploratory Analytics in Tableau & Power BI: Customer Segmentation & RFM ⏳
+- Phase 9: Exploratory Analytics in Tableau & Power BI: Retruns and Logistics ⏳
+- Phase 10: Enterprise Packaging & Git Commit Optimization ⏳
 
 ## Repository Structure
 ```text
@@ -53,26 +55,34 @@ venv/
 
 [Tableau Public Dashboard](https://public.tableau.com/views/urbanclick_analytics_platform/NetProfit?\:language=en-US&\:sid=&\:redirect=auth&\:display_count=n&\:origin=viz_share_link)
 
-##### How is the business performing? What are the major trends, customer segments, categories and regions by Order Volume, Revenue & Profit?
+##### Objective: How is the business performing? What are the major trends, customer segments, categories and regions by Order Volume, Revenue & Profit?
 
 ![Tableau Executive Dashboard](tableau/Tableau_Executive_Dashboard.JPG)
 
-##### Which products and categories are profitable or unprofitable? What is the relationship between revenue and profit?
+##### Objective: Which products and categories are profitable or unprofitable? What is the relationship between revenue and profit?
 
 ![Tableau Product Analysis](tableau/Tableau_Product_Analysis.JPG)
+
+##### Objective: Monitor fulfillment bottlenecks, regional workload distribution, and warehouse capacity thresholds.
+
+![Tableau Product Analysis](tableau/Tableau_WH_Utilization.JPG)
 
 
 ### Power BI
 
 [Power BI Dashboard](https://app.powerbi.com/view?r=eyJrIjoiYjM4YjIwMTYtMjEzNy00NGFmLThjMmUtMTc5MDFiM2ZkMmI3IiwidCI6Ijk4NjNhOWJhLTczYTktNDZkZi04YzMzLTNkZDM3NTczNzk0ZSJ9)
 
-##### How is the business performing? What are the major trends, customer segments, categories and regions by Order Volume, Revenue & Profit?
+##### Objective:  How is the business performing? What are the major trends, customer segments, categories and regions by Order Volume, Revenue & Profit?
 
 ![Power BI Executive Dashboard](power_bi/Executive_Dashboard.JPG)
 
-##### Which products and categories are profitable or unprofitable? What is the relationship between revenue and profit?
+##### Objective:  Which products and categories are profitable or unprofitable? What is the relationship between revenue and profit?
 
 ![Power BI Product Analysis](power_bi/Product_Analysis.JPG)
+
+##### Objective: Monitor fulfillment bottlenecks, regional workload distribution, and warehouse capacity thresholds.
+
+![Power BI Product Analysis](power_bi/WH_utilization.JPG)
 
 ## Issues during project
 1. **Connectivity between Power BI -> MySQL**\
