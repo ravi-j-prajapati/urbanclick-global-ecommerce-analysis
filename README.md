@@ -20,8 +20,8 @@ The Project Covers:
 - Phase 4: Exploratory Analytics in Tableau & Power BI: Executive Overview ✅
 - Phase 5: Exploratory Analytics in Tableau & Power BI: Product Analysis ✅
 - Phase 6: Exploratory Analytics in Tableau & Power BI: Warehouse Location & Capacity Utilization ✅
-- Phase 7: Exploratory Analytics in Tableau & Power BI: Inventory & Supply Chain Health 🔄
-- Phase 8: Exploratory Analytics in Tableau & Power BI: Customer Segmentation & RFM ⏳
+- Phase 7: Exploratory Analytics in Tableau & Power BI: Inventory & Supply Chain Health ✅
+- Phase 8: Exploratory Analytics in Tableau & Power BI: Customer Segmentation & RFM 🔄
 - Phase 9: Exploratory Analytics in Tableau & Power BI: Retruns and Logistics ⏳
 - Phase 10: Enterprise Packaging & Git Commit Optimization ⏳
 
@@ -67,6 +67,9 @@ venv/
 
 ![Tableau Product Analysis](tableau/Tableau_WH_Utilization.JPG)
 
+##### Objective: Prevent stockouts on fast-moving items while reducing holding costs on dead stock.
+
+![Tableau Product Analysis](tableau/Tableau_Inventory_&_Supply_Chain_Health.JPG)
 
 ### Power BI
 
@@ -82,10 +85,9 @@ venv/
 
 ##### Objective: Monitor fulfillment bottlenecks, regional workload distribution, and warehouse capacity thresholds.
 
-![Power BI Product Analysis](power_bi/WH_utilization.JPG)
+![Power BI Product Analysis](power_bi/WH_Utilization.JPG)
 
-## Issues during project
-1. **Connectivity between Power BI -> MySQL**\
-    Compativility issue between native MySQL connector and the installed Connector/NET provider.
+##### Objective: Prevent stockouts on fast-moving items while reducing holding costs on dead stock.
 
-    **Solution:** Power BI was connected to MySQL using the MySQL ODBC 8.4 Unicode Driver. The database connection was validated through DSN testing before use.
+![Power BI Product Analysis](power_bi/Inventory_&_Supply_Chain_Health.JPG)
+
