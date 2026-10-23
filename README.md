@@ -21,8 +21,8 @@ The Project Covers:
 - Phase 5: Exploratory Analytics in Tableau & Power BI: Product Analysis ✅
 - Phase 6: Exploratory Analytics in Tableau & Power BI: Warehouse Location & Capacity Utilization ✅
 - Phase 7: Exploratory Analytics in Tableau & Power BI: Inventory & Supply Chain Health ✅
-- Phase 8: Exploratory Analytics in Tableau & Power BI: Customer Segmentation & RFM 🔄
-- Phase 9: Exploratory Analytics in Tableau & Power BI: Retruns and Logistics ⏳
+- Phase 8: Exploratory Analytics in Tableau & Power BI: Customer Segmentation & RFM ✅
+- Phase 9: Exploratory Analytics in Tableau & Power BI: Retruns and Logistics 🔄
 - Phase 10: Enterprise Packaging & Git Commit Optimization ⏳
 
 ## Repository Structure
@@ -71,6 +71,10 @@ venv/
 
 ![Tableau Product Analysis](tableau/Tableau_Inventory_&_Supply_Chain_Health.JPG)
 
+##### Objective: Group customers into strategic value tiers (Gold, Silver, Bronze) based on Recency, Frequency, and Monetary (RFM) behavior.
+
+![Tableau Product Analysis](tableau/Tableau_Customer_Segmentation_&_RFM.JPG)
+
 ### Power BI
 
 [Power BI Dashboard](https://app.powerbi.com/view?r=eyJrIjoiYjM4YjIwMTYtMjEzNy00NGFmLThjMmUtMTc5MDFiM2ZkMmI3IiwidCI6Ijk4NjNhOWJhLTczYTktNDZkZi04YzMzLTNkZDM3NTczNzk0ZSJ9)
@@ -90,4 +94,8 @@ venv/
 ##### Objective: Prevent stockouts on fast-moving items while reducing holding costs on dead stock.
 
 ![Power BI Product Analysis](power_bi/Inventory_&_Supply_Chain_Health.JPG)
+
+##### Objective: Group customers into strategic value tiers (Gold, Silver, Bronze) based on Recency, Frequency, and Monetary (RFM) behavior.
+
+![Power BI Product Analysis](power_bi/Customer_Segmentation_&_RFM.JPG)
 
